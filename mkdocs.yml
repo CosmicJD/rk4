@@ -1,0 +1,22 @@
+site_name: Documentacion del Método Rk4
+
+
+theme:
+  name: "material"
+
+nav:
+  - index.md
+  - tutorials.md
+  - reference.md
+  - explanation.md
+plugins:
+  - mkdocstrings
+
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
